@@ -35,3 +35,52 @@ body {
   border-radius: 2rem;
   z-index: -1;
 }
+
+.icon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+
+.form h1 {
+  color: #fff;
+  font-size: 1rem;
+  text-align: left;
+  margin-bottom: 3rem;
+}
+
+/* Form inputs */
+.inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: #fff;
+  margin-bottom: 1.5rem;
+  font-size: 0.7rem;
+  border-bottom: 1px solid rgba(231, 231, 231, 0.8);
+}
+
+.inputs:hover {
+  border-bottom: 3px solid #fff;
+  transition: 0.3s ease-in-out;
+}
+
+/* Form placeholder */
+#email,
+#email::placeholder,
+#password,
+#password::placeholder,
+#password2,
+#password2::placeholder {
+  width: 100%;
+  border: none;
+  background: none;
+  outline: none;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  padding-bottom: 0.5rem;
+}
